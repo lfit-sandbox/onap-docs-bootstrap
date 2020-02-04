@@ -10,17 +10,17 @@ tar xzf master.tar.gz \
 #if .gitignore doesnt exist.
 if [[ -f .gitignore ]]; then
 tar xzf master.tar.gz \
-  test-master/.gitignore \
+  onap-docs-bootstrap-master/.gitignore \
   --strip-components=1 -O \
   > gitignore.stage
 else
 tar xzf master.tar.gz \
-  test-master/.gitignore \
+  onap-docs-bootstrap-master/.gitignore \
   --strip-components=1 -O \
   > .gitignore
 fi
 
-tar xzf master.tar.gz test-master/.readthedocs.yaml --strip-components=1 -O > .readthedocs.yaml
+tar xzf master.tar.gz onap-docs-bootstrap-master/.readthedocs.yaml --strip-components=1 -O > .readthedocs.yaml
 
 rm master.tar.gz
 rm docs_script.sh
