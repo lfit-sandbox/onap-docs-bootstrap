@@ -13,9 +13,4 @@ rm master.tar.gz
 rm docs_script.sh
 
 echo "Helper script run"
-
 git status
-
-echo "Any files with and directories with stage in their name need to be manually merged, as these files or directories already existed in your repo"
-
-
