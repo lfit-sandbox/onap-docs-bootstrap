@@ -1,5 +1,5 @@
 #!/bin/bash
-wget -q https://github.com/lfit-sandbox/test/archive/master.tar.gz
+wget -q https://github.com/lfit-sandbox/onap-docs-bootstrap/archive/master.tar.gz
 sleep 1
 
 #If docs dir exists:
