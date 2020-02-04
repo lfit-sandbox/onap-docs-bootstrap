@@ -1,2 +1,3 @@
 docs/.tox
 docs/_build/*
+docs/__pycache__/*
