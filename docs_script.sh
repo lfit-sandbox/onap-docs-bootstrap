@@ -4,7 +4,7 @@ sleep 1
 
 #If docs dir exists:
 tar xzf master.tar.gz \
-  --wildcards 'test-master/docs/*' \
+  --wildcards 'onap-docs-bootstrap-master/docs/*' \
   --strip-components=1
 
 #if .gitignore doesnt exist.
